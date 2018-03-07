@@ -1,0 +1,50 @@
+/**自定义分页**/
+.pagebar{
+		list-style: none;
+	}
+	.pagebar li{
+		float: left;
+		box-sizing: content-box;
+	}
+	.pagebar li{
+		height: 34px;
+		line-height: 34px;
+		cursor: pointer;
+		padding: 0;
+		background: linear-gradient(#fff,#efefef,#f5f5f5,#efefef,#fff);
+	}
+	.pagebar a:active,.pagebar a:link,.pagebar a:hover,.pagebar a:focus,.pagebar  a:visited{
+		color:#333;
+	}
+	.pagebar a{
+		height: 100%;
+		padding: 0 10px;
+		display: block;
+		box-sizing:content-box;
+		border:solid #d4dce2 1px;
+		text-decoration:none;
+	}
+	.pagebar .active{
+		color:#67a3dc;
+		border-bottom:solid 2px #67a3dc;
+	}
+	.pagebar-icon a{
+		border-radius: 0 3px 3px 0;
+	}
+	.pagebar .pagebar-icon
+	{
+		margin-left: -10px;
+	}
+	.pagebar .pagebar-none{
+		background: none;
+		margin: 0 15px;
+	}
+	.pagebar .disabled{
+		opacity: .5;
+	}
+	.pagebar .input{
+		width: 46px;
+		height: 32px;
+		line-height: 32px;
+		padding: 0;
+	}
